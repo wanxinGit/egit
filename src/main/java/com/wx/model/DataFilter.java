@@ -28,7 +28,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface DataFilter {
-    /**  表的别名 */
+    /**  表的别名 测试未stage */
     String tableAlias() default "";
 
     /**  true：没有本部门数据权限，也能查询本人数据 */
